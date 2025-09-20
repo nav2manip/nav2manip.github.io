@@ -144,7 +144,7 @@ const Project = () => {
                 </video>
                 <div className="project__headerTitle">
                     <p className="project__headerMainTitle google-sans-semibold white-color">N2M</p>
-                    <p className="project__headerSubTitle google-sans-regular white-color">Bridging Navigation and Manipulation by Learning Initial Pose Preference from Rollout</p>
+                    <p className="project__headerSubTitle google-sans-regular white-color">Bridging Navigation and Manipulation by Learning Pose Preference from Rollout</p>
                 </div>
                 <div className="project__headerNavigator">
                     <a href="#overview" className="project__headerNavigatorItem">
@@ -183,7 +183,7 @@ const Project = () => {
                         In mobile manipulation, the manipulation policy has strong preferences for initial poses where it is executed. However, the navigation module focuses solely on reaching the task area, without considering which initial pose is preferable for downstream manipulation.
                         To address this misalignment, we introduce N2M, a transition module that guides the robot to a preferable initial pose after reaching the task area, thereby substantially improving task success rates. N2M features five key advantages: (1) reliance solely on ego-centric observation without requiring global or historical information; (2) real-time adaptation to environmental changes; (3) reliable prediction with high viewpoint robustness; (4) broad applicability across diverse tasks, manipulation policies, and robot hardware; and (5) remarkable data efficiency and generalizability.
                         We demonstrate the effectiveness of N2M through extensive simulation and real-world experiments.
-                        In the <i>PnPCounterToCab</i> task, N2M improves the averaged success rate from 3\% with the reachability-based baseline to 54\%.
+                        In the <i>PnPCounterToCab</i> task, N2M improves the averaged success rate from 3% with the reachability-based baseline to 54%.
                         Furthermore, in the <i>Toybox Handover</i> task, N2M provides reliable predictions even in unseen environments with only 15 data samples, showing remarkable data efficiency and generalizability.
                         </p>
                     </div>
