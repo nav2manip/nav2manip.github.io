@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html, body {
+  width: 100vw;
+  overflow-x: clip;
+}
+
+.google-sans-light {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.google-sans-regular {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.google-sans-medium {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.google-sans-semibold {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.fixed-width {
+  width: 80%;
+  max-width: 1200px;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.blue-color {
+  color: #4596FF;
+}
+
+.black-color {
+  color: #000000;
+}
+
+.light-gray-background {
+  background-color: #F1F1F1;
+}
+
+.dark-gray-background {
+  background-color: #212121;
+}
