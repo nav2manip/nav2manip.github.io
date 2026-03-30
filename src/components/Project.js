@@ -189,6 +189,27 @@ const Project = () => {
                     </div>
                 </div>
 
+                <div className="project__bodyContent project__visualization" id="visualization">
+                    <p className="project__bodyContentTitle project__visualizationTitle revision-color google-sans-semibold">Visualization of Sensitivity Analysis (for Rebuttal)</p>
+                    <div className="project__visualizationContent">
+                        <div className="project__visualizationContentItem">
+                            <img src={`${process.env.PUBLIC_URL}/figures/Sensitivity_PnPCounterToCab.png`} alt="visualization_1" className="project__visualizationContentItemImage" />
+                            <p className="project__visualizationContentItemTitle revision-color google-sans-semibold">Pick and Place Counter to Cabinet</p>
+                        </div>
+                        <div className="project__visualizationContentItem">
+                            <img src={`${process.env.PUBLIC_URL}/figures/Sensitivity_OpenSingleDoor.png`} alt="visualization_1" className="project__visualizationContentItemImage" />
+                            <p className="project__visualizationContentItemTitle revision-color google-sans-semibold">Open Single Door</p>
+                        </div>
+                        <div className="project__visualizationContentItem">
+                            <img src={`${process.env.PUBLIC_URL}/figures/Sensitivity_CloseDoubleDoor.png`} alt="visualization_1" className="project__visualizationContentItemImage" />
+                            <p className="project__visualizationContentItemTitle revision-color google-sans-semibold">Close Double Door</p>
+                        </div>
+                    </div>
+                    <p className="project__visualizationText revision-color google-sans-regular">
+                        This visualization compares N2M sensitivity analysis across three tasks against a reachability baseline (Blue = Success, Red = Failure). The data reveals a high sensitivity to the initial base pose: even with geometrically feasible starting points, failure modes are frequent and often adjacent to successful ones. For Close Double Door, the visualization shows one of two possible door placements; the dual clusters in the data reflect this randomized setup.
+                    </p>
+                </div>
+
                 <div className="project__bodyContent project__method" id="method">
                     <p className="project__bodyContentTitle google-sans-semibold">Method</p>
                     <div className="project__methodContent">
